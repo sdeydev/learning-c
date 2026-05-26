@@ -25,7 +25,7 @@ void merge(int *arr, int start, int mid, int end){
     int k = 0;
 
     while(i<=mid && j<=end){
-        if(arr[i]>=arr[j]){
+        if(arr[i]>=arr[j]){ // just this condition changed from prev
             temp[k]=arr[i];
             i++;
             k++;
